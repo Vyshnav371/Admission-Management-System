@@ -71,8 +71,6 @@ class adminHome implements ActionListener
 	{
 		if (e.getSource() == b1)
 		{
-			// Check Event List and DEtails --simple page
-			//Passenger_Detail c1 = new Passenger_Detail();
 			testing t = new testing();
 		}
 
@@ -82,7 +80,6 @@ class adminHome implements ActionListener
 		}
 		if (e.getSource() == b6)
 		{
-					// homepage
 			f.setVisible(false);
 			adminHome h1 = new adminHome();
 
@@ -104,7 +101,6 @@ class adminHome implements ActionListener
 		}
 		if (e.getSource() == b9)
 		{
-			/// log out button
 			f.setVisible(false);
 		}
 

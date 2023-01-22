@@ -3,6 +3,7 @@ import java.awt.*;
 import javax.swing.table.DefaultTableModel;
 import java.sql.*;
 class UserList extends JFrame {
+    JFrame frame= new JFrame("Student List");
     DefaultTableModel model = new DefaultTableModel();
     Container cnt = this.getContentPane();
     JTable jtbl = new JTable(model);
@@ -36,11 +37,11 @@ class UserList extends JFrame {
         this.pack();
     }
 }
-class testing {
-    public static void main(String[] args) {
-        JFrame frame = new UserList();
-        frame.setTitle("Swing Example");
-        frame.setSize(500, 300);
+public class testing {
+    public static void main(String[] args){
+        UserList frame = new UserList();
+        frame.setTitle("Students List");
+        frame.setSize(475, 500);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
