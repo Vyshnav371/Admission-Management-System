@@ -1,0 +1,218 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch upi",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.upi",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Signin",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Signin",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Register_Event",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Register_Event",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Payment",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Payment",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Homepage",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Homepage",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Frontpage",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Frontpage",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Contact",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Contact",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Event_List",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.Check_Event_List",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch cards",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.cards",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch About",
+            "request": "launch",
+            "mainClass": "Project_by_Group8.About",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch About",
+            "request": "launch",
+            "mainClass": "About",
+            "projectName": "Project_by_Shoaib_Akhtar_c7cb52a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Signin",
+            "request": "launch",
+            "mainClass": "Signin",
+            "projectName": "Project_by_Shoaib_Akhtar_c7cb52a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyCanvas",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.MyCanvas",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch upi",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.upi",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch cards",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.cards",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Frontpage",
+            "request": "launch",
+            "mainClass": "Frontpage",
+            "projectName": "Project_by_Shoaib_Akhtar_c7cb52a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch upi",
+            "request": "launch",
+            "mainClass": "upi",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch cards",
+            "request": "launch",
+            "mainClass": "cards",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch sample",
+            "request": "launch",
+            "mainClass": "sample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Signin",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Signin",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Regiister_Event_2",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Regiister_Event_2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Payment",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Payment",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch event_you_have_registered",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.event_you_have_registered",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Contact",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Contact",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch About",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.About",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Homepage",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Homepage",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Register_Event",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Register_Event",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Event_List",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Check_Event_List",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Frontpage",
+            "request": "launch",
+            "mainClass": "Project_by_Shoaib_Akhtar.Frontpage",
+            "projectName": ""
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
