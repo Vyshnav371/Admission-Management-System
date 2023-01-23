@@ -8,7 +8,7 @@ class adminHome implements ActionListener
 {
 	JFrame f ;
 	JLabel l1;
-	JButton b1,b2,b3,b4,b6,b7,b8,b9;
+	JButton b1,b2,b3,b6,b7,b8,b9;
 
 	public adminHome()
 	{
@@ -18,7 +18,6 @@ class adminHome implements ActionListener
 		b1 = new JButton("SHOW STUDENTS");
 		b2 = new JButton("ADD STUDENT");
 		b3 = new JButton("DELETE STUDENT");
-		b4 = new JButton("UPDATE STUDENT");
 		b6 = new JButton("HOME");
 		b7 = new JButton("ABOUT");
 		b8 = new JButton("CONTACT US");
@@ -27,7 +26,6 @@ class adminHome implements ActionListener
 		b1.setBounds(30,220,170,30);
 		b2.setBounds(30,270,170,30);
 		b3.setBounds(30,320,170,30);
-		b4.setBounds(30,370,170,30);
 		b6.setBounds(150,120,100,30);
 		b7.setBounds(270,120,100,30);
 		b8.setBounds(390,120,120,30);
@@ -36,7 +34,6 @@ class adminHome implements ActionListener
 		f.add(b1);
 		f.add(b2);
 		f.add(b3);
-		f.add(b4);
 		f.add(b6);
 		f.add(b7);
 		f.add(b8);
@@ -45,7 +42,6 @@ class adminHome implements ActionListener
 		b1.addActionListener(this);
 		b2.addActionListener(this);
 		b3.addActionListener(this);
-		b4.addActionListener(this);
 		b6.addActionListener(this);
 		b7.addActionListener(this);
 		b8.addActionListener(this);
@@ -71,7 +67,8 @@ class adminHome implements ActionListener
 	{
 		if (e.getSource() == b1)
 		{
-			testing t = new testing();
+			UserList t = new UserList();
+			t.show();
 		}
 
 		if (e.getSource() == b2)
@@ -86,7 +83,11 @@ class adminHome implements ActionListener
 		}
 		if (e.getSource() == b7)
 		{
-			Aboutt a1 = new Aboutt();
+			try {
+				Contactt abc = new Contactt();
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
 		}
 
 
